@@ -1,18 +1,22 @@
 {{ if (eq .ind "title") }}
-{{ if (index .all `url`) }}
-<a href="{{ index .all `url` }}">
-  <em>
-    {{- index .all .ind -}}
-    {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
-  </em>
-</a>
+  {{ if (index .all `url`) }}
+    <a href="{{ index .all `url` }}">
+      <em>
+        {{- index .all .ind -}}
+        {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
+      </em>
+    </a>
+  {{ else }}
+    <em>
+      {{- index .all .ind -}}
+      {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
+    </em>
+  {{ end }}
+{{ else if (eq .ind "authors") }}
+  {{- $authors := index .all .ind | replaceRE "S\\. Kato" "<u>S. Kato</u>" -}}
+  <span>{{ $authors | safeHTML }}</span>
+  {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
 {{ else }}
-<em>
   {{- index .all .ind -}}
   {{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
-</em>
-{{ end }}
-{{ else }}
-{{- index .all .ind -}}
-{{- cond (eq (substr (index .all .ind) -1 1) ".") "" "." -}}
 {{ end }}
