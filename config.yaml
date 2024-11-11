@@ -114,6 +114,7 @@ params:
   publication:
     title: Publications
     icon: fas fa-book
+    description: "Below are selected publications. For the full list, please visit the [Full Publication List page](publication-list)."
     format:
       - authors
       - title
