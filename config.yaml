@@ -1,14 +1,14 @@
-baseURL: https://aafu.pages.dev/
+baseURL: https://s-kat0.github.io/
 languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: Shota Kato
+  author: Shota Kato
+  description: Shota Kato's personal website
   copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    &copy; 2024 Shota Kato. All rights reserved.
+
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,34 +24,33 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Shota Kato"
+    tagline: PhD (Informatics)
+    location: Kyoto, Japan
     photo: profile.jpg
+
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/shota-kato-1491b31a0/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/s-kat0"
         title: GitHub
       - icon: fab fa-twitter
-        url: "#"
+        url: "https://twitter.com/s_kat0"
         title: Twitter
       - icon: fab fa-orcid
-        url: "#"
+        url: "https://orcid.org/0000-0002-3841-3922"
         title: Orcid
       - icon: ai ai-google-scholar
-        url: "#"
+        url: "https://scholar.google.co.jp/citations?user=tGyLCt8AAAAJ"
         title: Google Scholar
       - icon: fab fa-researchgate
-        url: "#"
+        url: "https://www.researchgate.net/profile/Shota-Kato"
         title: ResearchGate
+
   showInAccordion:
     - item: aboutme
       expand: true
@@ -61,110 +60,129 @@ params:
     - item: project
     - item: skill
     - item: hobby
+
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing.
+
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Visiting Researcher
+        dates: "Apr. 2024 – Present"
+        url: "https://www.manchester.ac.uk/"
+        company: University of Manchester
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - Collaboration with the group of Dr. Dongda Zhang in the Department of Chemical Engineering, Faculty of Science and Engineering.
+      - position: JST ACT-X Researcher [NextAI-math-info]
+        dates: "Oct. 1, 2023 – Present"
+        url: "https://www.jst.go.jp/kisoken/act-x/en/index.html"
+        company: JST ACT-X
+        details: |1-
+          - Theme: Development of an automated physical model building AI that understands the terminology and mathematical formulas of manufacturing processes
+          - [Program homepage](https://www.jst.go.jp/kisoken/act-x/en/project/111F007/111F007_2023.html#:~:text=and%20dataset%20construction.-,Shota%20Kato,-Development%20of%20an)
+      - position: Assistant Professor
+        url: "https://www.kyoto-u.ac.jp/en"
+        dates: "Apr. 1, 2022 – Present"
+        company: Kyoto University
+        details: |1-
+          - Developing data analysis and natural language processing techniques to solve problems in chemical engineering.
+          - [Activity Database on Education and Research, Kyoto University](https://kdb.iimc.kyoto-u.ac.jp/profile/en.27e73e96a03d104c.html)
+      - position: Kyoto University Graduate Division fellow
+        dates: "Oct. 1, 2021 – Mar. 23, 2022"
+        url: "https://www.kyoto-u.ac.jp/en"
+        company: Kyoto University
+
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: Ph.D. in Informatics
+        college: Kyoto University
+        dates: 2019 – 2022
+        thesis_title: "Gray-box modeling and model-based control of Czochralski process producing 300 mm diameter Silicon ingots"
+        thesis_url: "https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/275362?locale=en"
+      - degree: M.S. in Engineering
+        college: Kyoto University
+        dates: 2017 – 2019
+      - degree: B.S. in Engineering
+        college: Kyoto University
+        dates: 2013 – 2017
+
   publication:
     title: Publications
     icon: fas fa-book
     format:
-      - date
-      - title
       - authors
+      - title
       - journal
+      - date
     types:
       - Journal Articles
       - Proceedings
     list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
+      - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
+        authors: "K. Nagayama, S. Kato, and M. Kano"
+        date: "2024"
+        journal: "NLDB, pp. 151–165"
+        url: "https://doi.org/10.1007/978-3-031-70239-6_11"
         type: Proceedings
+
+      - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
+        authors: "S. Kato and M. Kano"
+        date: "2024"
+        journal: "Computer Aided Chemical Engineering, vol. 53, pp. 2839–2844"
+        url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
+        type: Proceedings
+
+      - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
+        authors: "S. Kato and M. Kano"
+        date: "2023"
+        journal: "Scientific Reports, vol. 13, no. 11534"
+        url: "https://doi.org/10.1038/s41598-023-38254-y"
+        type: Journal Articles
+
+      - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
+        authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
+        date: "2021"
+        journal: "Journal of Crystal Growth, vol. 553, p. 125929"
+        url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
+        type: Journal Articles
+
   project:
-    title: Projects
+    title: "Projects"
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - title: "AutoPMoB: Automated Physical Model Builder"
+        description:
+          AutoPMoB is an AI system aiming to automate the construction of physical models from literature information.
+          This project focuses on developing methods to extract relevant information from papers and build physical models based on textual information.
+          As part of this research, I am also working on AI systems that can understand mathematical expressions.
+
+      - title: "Data Analysis and NLP for Practical Solutions"
+        description:
+          This project involves the development of data analysis and natural language processing (NLP) techniques to solve practical issues, such as creating methods for accurately predicting product quality and developing document-based approaches for proactive problem prevention.
+
   skill:
     title: Skills
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: "Programming: Python, MATLAB"
         skillrating: 90
-      - skill: Skill 3
+      - skill: "Domain Knowledge: Chemical Engineering (Process Systems Engineering)"
+        skillrating: 90
+      - skill: "Domain Knowledge: Natural Language Processing and Machine Learning"
         skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Cycling
+      - hobby: Drinking (especially whisky and beer)
+      - hobby: Gaming
+      - hobby: Anime and Manga
+
