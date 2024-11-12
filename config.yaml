@@ -1,7 +1,7 @@
 baseURL: https://s-kat0.github.io/
 languageCode: en-us
 defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 build:
   writeStats: true
 
