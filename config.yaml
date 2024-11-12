@@ -1,189 +1,380 @@
 baseURL: https://s-kat0.github.io/
 languageCode: en-us
+defaultContentLanguage: en
 build:
   writeStats: true
-params:
-  title: Shota Kato
-  author: Shota Kato
-  description: Shota Kato's personal website
-  copyright: >-
-    &copy; 2024 Shota Kato. All rights reserved.
 
-  theme:
-    mainTheme: dark
-    showAttribute: true
-    singlePage: false
-  favicons:
-    use: true
-    metas: |2-
-              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-              <link rel="manifest" href="site.webmanifest">
-              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-              <link rel="shortcut icon" href="favicon.ico">
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      title: Shota Kato
+      author: Shota Kato
+      description: Shota Kato's personal website
+      copyright: >-
+        &copy; 2024 Shota Kato. All rights reserved.
 
-  profile:
-    name: "Shota Kato"
-    tagline: PhD (Informatics)
-    location: Kyoto, Japan
-    photo: profile.jpg
+      theme:
+        mainTheme: dark
+        showAttribute: true
+        singlePage: false
+      favicons:
+        use: true
+        metas: |2-
+                  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+                  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+                  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+                  <link rel="manifest" href="site.webmanifest">
+                  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+                  <link rel="shortcut icon" href="favicon.ico">
 
-  social:
-    title: Links
-    list:
-      - icon: fab fa-linkedin-in
-        url: "https://www.linkedin.com/in/shota-kato-1491b31a0/"
-        title: LinkedIn
-      - icon: fab fa-github
-        url: "https://github.com/s-kat0"
-        title: GitHub
-      - icon: fab fa-twitter
-        url: "https://twitter.com/s_kat0"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "https://orcid.org/0000-0002-3841-3922"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "https://scholar.google.co.jp/citations?user=tGyLCt8AAAAJ"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "https://www.researchgate.net/profile/Shota-Kato"
-        title: ResearchGate
+      profile:
+        name: "Shota Kato"
+        tagline: PhD (Informatics)
+        location: Kyoto, Japan
+        photo: profile.jpg
 
-  showInAccordion:
-    - item: aboutme
-      expand: true
-    - item: experience
-    - item: education
-    - item: publication
-    - item: project
-    - item: skill
-    - item: hobby
+      social:
+        title: Links
+        list:
+          - icon: fab fa-linkedin-in
+            url: "https://www.linkedin.com/in/shota-kato-1491b31a0/"
+            title: LinkedIn
+          - icon: fab fa-github
+            url: "https://github.com/s-kat0"
+            title: GitHub
+          - icon: fab fa-twitter
+            url: "https://twitter.com/s_kat0"
+            title: Twitter
+          - icon: fab fa-orcid
+            url: "https://orcid.org/0000-0002-3841-3922"
+            title: Orcid
+          - icon: ai ai-google-scholar
+            url: "https://scholar.google.co.jp/citations?user=tGyLCt8AAAAJ"
+            title: Google Scholar
+          - icon: fab fa-researchgate
+            url: "https://www.researchgate.net/profile/Shota-Kato"
+            title: ResearchGate
 
-  aboutme:
-    title: About Me
-    icon: fas fa-user
-    description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing.
+      showInAccordion:
+        - item: aboutme
+          expand: true
+        - item: experience
+        - item: education
+        - item: publication
+        - item: project
+        - item: skill
+        - item: hobby
 
-  experience:
-    title: Experiences
-    icon: fas fa-briefcase
-    list:
-      - position: Visiting Researcher
-        dates: "Apr. 2024 – Present"
-        url: "https://www.manchester.ac.uk/"
-        company: University of Manchester
-        details: |1-
-          - Collaboration with the group of Dr. Dongda Zhang in the Department of Chemical Engineering, Faculty of Science and Engineering.
-      - position: JST ACT-X Researcher [NextAI-math-info]
-        dates: "Oct. 1, 2023 – Present"
-        url: "https://www.jst.go.jp/kisoken/act-x/en/index.html"
-        company: JST ACT-X
-        details: |1-
-          - Theme: Development of an automated physical model building AI that understands the terminology and mathematical formulas of manufacturing processes
-          - [Program homepage](https://www.jst.go.jp/kisoken/act-x/en/project/111F007/111F007_2023.html#:~:text=and%20dataset%20construction.-,Shota%20Kato,-Development%20of%20an)
-      - position: Assistant Professor
-        url: "https://www.kyoto-u.ac.jp/en"
-        dates: "Apr. 1, 2022 – Present"
-        company: Kyoto University
-        details: |1-
-          - Developing data analysis and natural language processing techniques to solve problems in chemical engineering.
-          - [Activity Database on Education and Research, Kyoto University](https://kdb.iimc.kyoto-u.ac.jp/profile/en.27e73e96a03d104c.html)
-      - position: Kyoto University Graduate Division fellow
-        dates: "Oct. 1, 2021 – Mar. 23, 2022"
-        url: "https://www.kyoto-u.ac.jp/en"
-        company: Kyoto University
+      aboutme:
+        title: About Me
+        icon: fas fa-user
+        description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing.
 
-  education:
-    title: Education
-    icon: fas fa-graduation-cap
-    list:
-      - degree: Ph.D. in Informatics
-        college: Kyoto University
-        dates: 2019 – 2022
-        thesis_title: "Gray-box modeling and model-based control of Czochralski process producing 300 mm diameter Silicon ingots"
-        thesis_url: "https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/275362?locale=en"
-      - degree: M.S. in Engineering
-        college: Kyoto University
-        dates: 2017 – 2019
-      - degree: B.S. in Engineering
-        college: Kyoto University
-        dates: 2013 – 2017
+      experience:
+        title: Experiences
+        icon: fas fa-briefcase
+        list:
+          - position: Visiting Researcher
+            dates: "Apr. 2024 – Present"
+            url: "https://www.manchester.ac.uk/"
+            company: University of Manchester
+            details: |1-
+              - Collaboration with the group of Dr. Dongda Zhang in the Department of Chemical Engineering, Faculty of Science and Engineering.
+          - position: JST ACT-X Researcher [NextAI-math-info]
+            dates: "Oct. 1, 2023 – Present"
+            url: "https://www.jst.go.jp/kisoken/act-x/en/index.html"
+            company: JST ACT-X
+            details: |1-
+              - Theme: Development of an automated physical model building AI that understands the terminology and mathematical formulas of manufacturing processes
+              - [Program homepage](https://www.jst.go.jp/kisoken/act-x/en/project/111F007/111F007_2023.html#:~:text=and%20dataset%20construction.-,Shota%20Kato,-Development%20of%20an)
+          - position: Assistant Professor
+            url: "https://www.kyoto-u.ac.jp/en"
+            dates: "Apr. 1, 2022 – Present"
+            company: Kyoto University
+            details: |1-
+              - Developing data analysis and natural language processing techniques to solve problems in chemical engineering.
+              - [Activity Database on Education and Research, Kyoto University](https://kdb.iimc.kyoto-u.ac.jp/profile/en.27e73e96a03d104c.html)
+          - position: Kyoto University Graduate Division fellow
+            dates: "Oct. 1, 2021 – Mar. 23, 2022"
+            url: "https://www.kyoto-u.ac.jp/en"
+            company: Kyoto University
 
-  publication:
-    title: Publications
-    icon: fas fa-book
-    description: "Below are selected publications. For the full list, please visit the [Full Publication List page](publication-list)."
-    format:
-      - authors
-      - title
-      - journal
-      - date
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
-        authors: "K. Nagayama, S. Kato, and M. Kano"
-        date: "2024"
-        journal: "NLDB, pp. 151–165"
-        url: "https://doi.org/10.1007/978-3-031-70239-6_11"
-        type: Proceedings
+      education:
+        title: Education
+        icon: fas fa-graduation-cap
+        list:
+          - degree: Ph.D. in Informatics
+            college: Kyoto University
+            dates: 2019 – 2022
+            thesis_title: "Gray-box modeling and model-based control of Czochralski process producing 300 mm diameter Silicon ingots"
+            thesis_url: "https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/275362?locale=en"
+          - degree: M.S. in Engineering
+            college: Kyoto University
+            dates: 2017 – 2019
+          - degree: B.S. in Engineering
+            college: Kyoto University
+            dates: 2013 – 2017
 
-      - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
-        authors: "S. Kato and M. Kano"
-        date: "2024"
-        journal: "Computer Aided Chemical Engineering, vol. 53, pp. 2839–2844"
-        url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
-        type: Proceedings
+      publication:
+        title: Publications
+        icon: fas fa-book
+        description: "Below are selected publications. For the full list, please visit the [Full Publication List page](publication-list)."
+        format:
+          - authors
+          - title
+          - journal
+          - date
+        types:
+          - Journal Articles
+          - Proceedings
+        list:
+          - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
+            authors: "K. Nagayama, S. Kato, and M. Kano"
+            date: "2024"
+            journal: "NLDB, pp. 151–165"
+            url: "https://doi.org/10.1007/978-3-031-70239-6_11"
+            type: Proceedings
 
-      - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
-        authors: "S. Kato and M. Kano"
-        date: "2023"
-        journal: "Scientific Reports, vol. 13, no. 11534"
-        url: "https://doi.org/10.1038/s41598-023-38254-y"
-        type: Journal Articles
+          - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
+            authors: "S. Kato and M. Kano"
+            date: "2024"
+            journal: "Computer Aided Chemical Engineering, vol. 53, pp. 2839–2844"
+            url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
+            type: Proceedings
 
-      - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
-        authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
-        date: "2021"
-        journal: "Journal of Crystal Growth, vol. 553, p. 125929"
-        url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
-        type: Journal Articles
+          - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
+            authors: "S. Kato and M. Kano"
+            date: "2023"
+            journal: "Scientific Reports, vol. 13, no. 11534"
+            url: "https://doi.org/10.1038/s41598-023-38254-y"
+            type: Journal Articles
 
-  project:
-    title: "Projects"
-    icon: fas fa-project-diagram
-    list:
-      - title: "AutoPMoB: Automated Physical Model Builder"
-        description:
-          AutoPMoB is an AI system aiming to automate the construction of physical models from literature information.
-          This project focuses on developing methods to extract relevant information from papers and build physical models based on textual information.
-          As part of this research, I am also working on AI systems that can understand mathematical expressions.
+          - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
+            authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
+            date: "2021"
+            journal: "Journal of Crystal Growth, vol. 553, p. 125929"
+            url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
+            type: Journal Articles
 
-      - title: "Data Analysis and NLP for Practical Solutions"
-        description:
-          This project involves the development of data analysis and natural language processing (NLP) techniques to solve practical issues, such as creating methods for accurately predicting product quality and developing document-based approaches for proactive problem prevention.
+      project:
+        title: "Projects"
+        icon: fas fa-project-diagram
+        list:
+          - title: "AutoPMoB: Automated Physical Model Builder"
+            description:
+              AutoPMoB is an AI system aiming to automate the construction of physical models from literature information.
+              This project focuses on developing methods to extract relevant information from papers and build physical models based on textual information.
+              As part of this research, I am also working on AI systems that can understand mathematical expressions.
 
-  skill:
-    title: Skills
-    panelId: skill-panel
-    icon: fas fa-cogs
-    list:
-      - skill: "Programming: Python, MATLAB"
-        skillrating: 90
-      - skill: "Domain Knowledge: Chemical Engineering (Process Systems Engineering)"
-        skillrating: 90
-      - skill: "Domain Knowledge: Natural Language Processing and Machine Learning"
-        skillrating: 80
+          - title: "Data Analysis and NLP for Practical Solutions"
+            description:
+              This project involves the development of data analysis and natural language processing (NLP) techniques to solve practical issues, such as creating methods for accurately predicting product quality and developing document-based approaches for proactive problem prevention.
 
-  hobby:
-    title: Hobbies
-    icon: fas fa-gamepad
-    list:
-      - hobby: Cycling
-      - hobby: Drinking (especially whisky and beer)
-      - hobby: Gaming
-      - hobby: Anime and Manga
+      skill:
+        title: Skills
+        panelId: skill-panel
+        icon: fas fa-cogs
+        list:
+          - skill: "Programming: Python, MATLAB"
+            skillrating: 90
+          - skill: "Domain Knowledge: Chemical Engineering (Process Systems Engineering)"
+            skillrating: 90
+          - skill: "Domain Knowledge: Natural Language Processing and Machine Learning"
+            skillrating: 80
 
+      hobby:
+        title: Hobbies
+        icon: fas fa-gamepad
+        list:
+          - hobby: Cycling
+          - hobby: Drinking (especially whisky and beer)
+          - hobby: Gaming
+          - hobby: Anime and Manga
+
+  ja:
+    languageName: "日本語"
+    weight: 2
+    params:
+      title: 加藤 祥太
+      author: 加藤 祥太
+      description: 加藤祥太の個人ウェブサイト
+      copyright: >-
+        &copy; 2024 Shota Kato. All rights reserved.
+
+      theme:
+        mainTheme: dark
+        showAttribute: true
+        singlePage: false
+      favicons:
+        use: true
+        metas: |2-
+                  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+                  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+                  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+                  <link rel="manifest" href="site.webmanifest">
+                  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+                  <link rel="shortcut icon" href="favicon.ico">
+
+      profile:
+        name: "加藤 祥太"
+        tagline: "博士（情報学）"
+        location: "京都，日本"
+        photo: profile.jpg
+
+      social:
+        title: Links
+        list:
+          - icon: fab fa-linkedin-in
+            url: "https://www.linkedin.com/in/shota-kato-1491b31a0/"
+            title: LinkedIn
+          - icon: fab fa-github
+            url: "https://github.com/s-kat0"
+            title: GitHub
+          - icon: fab fa-twitter
+            url: "https://twitter.com/s_kat0"
+            title: Twitter
+          - icon: fab fa-orcid
+            url: "https://orcid.org/0000-0002-3841-3922"
+            title: Orcid
+          - icon: ai ai-google-scholar
+            url: "https://scholar.google.co.jp/citations?user=tGyLCt8AAAAJ"
+            title: Google Scholar
+          - icon: fab fa-researchgate
+            url: "https://www.researchgate.net/profile/Shota-Kato"
+            title: ResearchGate
+
+      showInAccordion:
+        - item: aboutme
+          expand: true
+        - item: experience
+        - item: education
+        - item: publication
+        - item: project
+        - item: skill
+        - item: hobby
+
+      aboutme:
+        title: 自己紹介
+        icon: fas fa-user
+        description: 京都大学で助教をしている加藤祥太（Kato Shota）です。化学工学、機械学習、自然言語処理に関する研究をしています。
+
+      experience:
+        title: 経歴
+        icon: fas fa-briefcase
+        list:
+          - position: 訪問研究員
+            dates: "2024年4月 – 現在"
+            url: "https://www.manchester.ac.uk/"
+            company: マンチェスター大学
+            details: |1-
+              - 化学工学専攻のDongda Zhang博士のグループとの共同研究
+          - position: JST ACT-X 研究員 [次世代AI・数理情報]
+            dates: "2023年10月1日 – 現在"
+            url: "https://www.jst.go.jp/kisoken/act-x/index.html"
+            company: JST ACT-X
+            details: |1-
+              - テーマ: 製造プロセスの専門用語と数式を理解する物理モデル自動構築AIの開発
+              - [プログラムホームページ](https://www.jst.go.jp/kisoken/act-x/project/111F007/111F007_2023.html#:~:text=%E7%9B%AE%E6%8C%87%E3%81%97%E3%81%BE%E3%81%99%E3%80%82-,%E5%8A%A0%E8%97%A4%20%E7%A5%A5%E5%A4%AA,-%E8%A3%BD%E9%80%A0%E3%83%97%E3%83%AD%E3%82%BB%E3%82%B9%E3%81%AE)
+          - position: 助教
+            url: "https://www.kyoto-u.ac.jp"
+            dates: "2022年4月1日 – 現在"
+            company: 京都大学
+            details: |1-
+              - 化学工学の問題を解決するためのデータ解析と自然言語処理技術の開発
+              - [京都大学教育研究活動データベース](https://kdb.iimc.kyoto-u.ac.jp/profile/ja.27e73e96a03d104c.html)
+          - position: 京都大学大学院特別研究員
+            dates: "2021年10月1日 – 2022年3月23日"
+
+      education:
+        title: 学歴
+        icon: fas fa-graduation-cap
+        list:
+          - degree: 博士（情報学）
+            college: 京都大学
+            dates: 2019年 – 2022年
+            thesis_title: "直径300mmのシリコンインゴットを製造するチョクラルスキープロセスのグレーボックスモデリング及びグレーボックスモデルに基づく予測制御"
+            thesis_url: "https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/275362?locale=ja"
+          - degree: 修士（工学）
+            college: 京都大学
+            dates: 2017年 – 2019年
+          - degree: 学士（工学）
+            college: 京都大学
+            dates: 2013年 – 2017年
+
+      publication:
+        title: 論文
+        icon: fas fa-book
+        description: "以下は厳選論文です。全リストは[全論文リストページ](publication-list)をご覧ください。"
+        format:
+          - authors
+          - title
+          - journal
+          - date
+        types:
+          - Journal Articles
+          - Proceedings
+        list:
+          - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
+            authors: "K. Nagayama, S. Kato, and M. Kano"
+            date: "2024"
+            journal: "NLDB, pp. 151–165"
+            url: "https://doi.org/10.1007/978-3-031-70239-6_11"
+            type: Proceedings
+
+          - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
+            authors: "S. Kato and M. Kano"
+            date: "2024"
+            journal: "Computer Aided Chemical Engineering, vol. 53, pp. 2839–2844"
+            url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
+            type: Proceedings
+
+          - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
+            authors: "S. Kato and M. Kano"
+            date: "2023"
+            journal: "Scientific Reports, vol. 13, no. 11534"
+            url: "https://doi.org/10.1038/s41598-023-38254-y"
+            type: Journal Articles
+
+          - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
+            authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
+            date: "2021"
+            journal: "Journal of Crystal Growth, vol. 553, p. 125929"
+            url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
+            type: Journal Articles
+
+      project:
+        title: "プロジェクト"
+        icon: fas fa-project-diagram
+        list:
+          - title: "AutoPMoB: Automated Physical Model Builder"
+            description:
+              AutoPMoBは、文献情報から物理モデルを自動構築するAIシステムを目指しています。
+              このプロジェクトでは、論文から関連情報を抽出し、テキスト情報に基づいて物理モデルを構築する方法の開発に焦点を当てています。
+              この研究の一環として、数式を理解できるAIシステムにも取り組んでいます。
+
+          - title: "実問題解決のためのデータ解析とNLP"
+            description:
+              このプロジェクトでは、製品品質を正確に予測するための手法の開発や、製造業における問題予防のための文書ベースのアプローチの開発など、データ解析と自然言語処理（NLP）技術の開発に取り組んでいます。
+
+      skill:
+        title: スキル
+        panelId: skill-panel
+        icon: fas fa-cogs
+        list:
+          - skill: "プログラミング: Python, MATLAB"
+            skillrating: 90
+          - skill: "ドメイン知識: 化学工学（プロセスシステム工学）"
+            skillrating: 90
+          - skill: "ドメイン知識: 自然言語処理と機械学習"
+            skillrating: 80
+
+      hobby:
+        title: 趣味
+        icon: fas fa-gamepad
+        list:
+          - hobby: サイクリング
+          - hobby: お酒（特にウイスキーとビール）
+          - hobby: ゲーム
+          - hobby: アニメとマンガ
