@@ -1,10 +1,8 @@
 <header class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between">
   <div>
-    <a class='no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800' href='{{ "/" | relLangURL }}'>Home</a>
-    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800"
-      href='{{ "publication-list" | relLangURL }}'>Publications</a>
-    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800"
-      href='{{ "achievements" | relLangURL }}'>Achievements</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="home-link">Home</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="publications-link">Publications</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="achievements-link">Achievements</a>
   </div>
   <div>
     <a class="mr-4" href='{{ "search" | relLangURL }}'><i class="fas fa-search"></i></a>
@@ -42,13 +40,30 @@
     if (currentLanguage === "ja") {
       basePath = basePath.replace(/^\/ja/, "");
     } else {
-      basePath = basePath.replace(/^\/en/, "");
       basePath = "/ja" + basePath;
     }
     window.location.href = basePath;
   }
 
+  function setLanguageLinks() {
+    const currentLanguage = getCurrentLanguage();
+    const homeLink = document.getElementById("home-link");
+    const publicationsLink = document.getElementById("publications-link");
+    const achievementsLink = document.getElementById("achievements-link");
+
+    if (currentLanguage === "ja") {
+      homeLink.href = "/ja/";
+      publicationsLink.href = "/ja/publication-list";
+      achievementsLink.href = "/ja/achievements";
+    } else {
+      homeLink.href = "/";
+      publicationsLink.href = "/publication-list";
+      achievementsLink.href = "/achievements";
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    setLanguageLinks();
     const langToggle = document.getElementById("language-toggle");
     langToggle.textContent = getCurrentLanguage() === "ja" ? "English" : "日本語";
   });
