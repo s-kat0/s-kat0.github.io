@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "研究業績"
 date: 2024-11-11
 draft: false
 layout: "publication-list"
