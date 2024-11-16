@@ -40,6 +40,12 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install Pagefind
+        run: npm install -g @pagefind/cli
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -60,6 +66,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "https://s-kat0.github.io/"
+      - name: Index with Pagefind
+        run: npx pagefind --site public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
