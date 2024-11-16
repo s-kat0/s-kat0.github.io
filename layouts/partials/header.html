@@ -2,6 +2,7 @@
   <div>
     <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="home-link">Home</a>
     <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="publications-link">Publications</a>
+    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="research-link">Research</a>
     <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="achievements-link">Achievements</a>
   </div>
   <div>
@@ -49,21 +50,26 @@
     const currentLanguage = getCurrentLanguage();
     const homeLink = document.getElementById("home-link");
     const publicationsLink = document.getElementById("publications-link");
+    const researchLink = document.getElementById("research-link");
     const achievementsLink = document.getElementById("achievements-link");
 
     if (currentLanguage === "ja") {
       homeLink.href = "/ja/";
       publicationsLink.href = "/ja/publication-list";
+      researchLink.href = "/ja/research";
       achievementsLink.href = "/ja/achievements";
       homeLink.textContent = "ホーム";
       publicationsLink.textContent = "研究業績";
+      researchLink.textContent = "研究紹介";
       achievementsLink.textContent = "活動";
     } else {
       homeLink.href = "/";
       publicationsLink.href = "/publication-list";
+      researchLink.href = "/research";
       achievementsLink.href = "/achievements";
       homeLink.textContent = "Home";
       publicationsLink.textContent = "Publications";
+      researchLink.textContent = "Research";
       achievementsLink.textContent = "Achievements";
     }
   }
