@@ -64,7 +64,7 @@ languages:
         - item: experience
         - item: education
         - item: publication
-        - item: project
+        - item: research
         - item: skill
         - item: hobby
 
@@ -159,19 +159,21 @@ languages:
             url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
             type: Journal Articles
 
-      project:
-        title: "Projects"
+      research:
+        title: "Research"
         icon: fas fa-project-diagram
         list:
           - title: "AutoPMoB: Automated Physical Model Builder"
+            url: research/autopmob
             description:
               AutoPMoB is an AI system aiming to automate the construction of physical models from literature information.
-              This project focuses on developing methods to extract relevant information from papers and build physical models based on textual information.
+              This theme focuses on developing methods to extract relevant information from papers and build physical models based on textual information.
               As part of this research, I am also working on AI systems that can understand mathematical expressions.
 
           - title: "Data Analysis and NLP for Practical Solutions"
+            url: research/data-analysis-nlp
             description:
-              This project involves the development of data analysis and natural language processing (NLP) techniques to solve practical issues, such as creating methods for accurately predicting product quality and developing document-based approaches for proactive problem prevention.
+              This research involves the development of data analysis and natural language processing (NLP) techniques to solve practical issues, such as creating methods for accurately predicting product quality and developing document-based approaches for proactive problem prevention.
 
       skill:
         title: Skills
@@ -252,7 +254,7 @@ languages:
         - item: experience
         - item: education
         - item: publication
-        - item: project
+        - item: research
         - item: skill
         - item: hobby
 
@@ -345,19 +347,21 @@ languages:
             url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
             type: Journal Articles
 
-      project:
-        title: "プロジェクト"
+      research:
+        title: "研究紹介"
         icon: fas fa-project-diagram
         list:
           - title: "AutoPMoB: Automated Physical Model Builder"
+            url: research/autopmob
             description:
               AutoPMoBは、文献情報から物理モデルを自動構築するAIシステムを目指しています。
-              このプロジェクトでは、論文から関連情報を抽出し、テキスト情報に基づいて物理モデルを構築する方法の開発に焦点を当てています。
+              このテーマでは、論文から関連情報を抽出し、テキスト情報に基づいて物理モデルを構築する方法の開発に焦点を当てています。
               この研究の一環として、数式を理解できるAIシステムにも取り組んでいます。
 
           - title: "実問題解決のためのデータ解析とNLP"
+            url: research/data-analysis-nlp
             description:
-              このプロジェクトでは、製品品質を正確に予測するための手法の開発や、製造業における問題予防のための文書ベースのアプローチの開発など、データ解析と自然言語処理（NLP）技術の開発に取り組んでいます。
+              この研究では、製品品質を正確に予測するための手法の開発や、製造業における問題予防のための文書ベースのアプローチの開発など、データ解析と自然言語処理（NLP）技術の開発に取り組んでいます。
 
       skill:
         title: スキル
