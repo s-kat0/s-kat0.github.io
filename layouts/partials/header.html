@@ -6,7 +6,7 @@
     <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" id="achievements-link">Achievements</a>
   </div>
   <div>
-    <a class="mr-4" href='{{ "search" | relLangURL }}'><i class="fas fa-search"></i></a>
+    <a class="mr-4" id="search-link"><i class="fas fa-search"></i></a>
     <i class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
       onclick="lightDark(this)"></i>
     <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800 cursor-pointer"
@@ -52,6 +52,7 @@
     const publicationsLink = document.getElementById("publications-link");
     const researchLink = document.getElementById("research-link");
     const achievementsLink = document.getElementById("achievements-link");
+    const searchLink = document.getElementById("search-link");
 
     if (currentLanguage === "ja") {
       homeLink.href = "/ja/";
@@ -62,6 +63,7 @@
       publicationsLink.textContent = "研究業績";
       researchLink.textContent = "研究紹介";
       achievementsLink.textContent = "活動";
+      searchLink.href = "/ja/search";
     } else {
       homeLink.href = "/";
       publicationsLink.href = "/publication-list";
@@ -71,6 +73,7 @@
       publicationsLink.textContent = "Publications";
       researchLink.textContent = "Research";
       achievementsLink.textContent = "Achievements";
+      searchLink.href = "/search";
     }
   }
 
