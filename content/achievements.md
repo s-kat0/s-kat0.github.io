@@ -29,7 +29,7 @@ draft: false
 
 - SIS Division Research Encouragement Award, The Society of Chemical Engineers Japan (SCEJ) 87th Annual Meeting, Mar 2022
 
-- Student Presentation Award,The 65th Annual Conference of the Institute of Systems, Control and Information Engineers (SCI’21), May 2021
+- Student Presentation Award, The 65th Annual Conference of the Institute of Systems, Control and Information Engineers (SCI’21), May 2021
 
 - Excellent Research Award, The 15th ICT Innovation, Kyoto University, Feb 2021
 
