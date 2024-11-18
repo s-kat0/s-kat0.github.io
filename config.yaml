@@ -71,7 +71,7 @@ languages:
       aboutme:
         title: About Me
         icon: fas fa-user
-        description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing.
+        description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing. My CV is available [here](/pdf/Curriculum_Vitae_ShotaKato.pdf).
 
       experience:
         title: Experiences
@@ -261,7 +261,7 @@ languages:
       aboutme:
         title: 自己紹介
         icon: fas fa-user
-        description: 京都大学で助教をしている加藤祥太（Kato Shota）です。化学工学、機械学習、自然言語処理に関する研究をしています。
+        description: 京都大学で助教をしている加藤祥太（Kato Shota）です。化学工学、機械学習、自然言語処理に関する研究をしています。CVは[こちら](/pdf/Curriculum_Vitae_ShotaKato.pdf)。
 
       experience:
         title: 経歴
