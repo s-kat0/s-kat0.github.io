@@ -3,6 +3,10 @@
   "version": "2024.01.25",
   "description": "The aafu theme is a responsive portfolio with blog.",
   "main": "index.js",
+  "scripts": {
+    "dev": "cd \"$(pwd -P)\" && PWD=\"$(pwd -P)\" hugo server",
+    "build": "cd \"$(pwd -P)\" && PWD=\"$(pwd -P)\" hugo --gc --minify"
+  },
   "keywords": [
     "hugo",
     "portfolio"

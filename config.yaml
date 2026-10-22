@@ -14,7 +14,7 @@ languages:
       author: Shota Kato
       description: Shota Kato's personal website
       copyright: >-
-        &copy; 2024 Shota Kato. All rights reserved.
+        &copy; 2026 Shota Kato. All rights reserved.
 
       theme:
         mainTheme: dark
@@ -71,20 +71,39 @@ languages:
       aboutme:
         title: About Me
         icon: fas fa-user
-        description: I am Shota Kato, an Assistant Professor at Kyoto University, specializing in chemical engineering, machine learning, and natural language processing. My CV is available [here](/pdf/Curriculum_Vitae_ShotaKato.pdf).
+        description: I am Shota Kato, an Assistant Professor at the Graduate School of Informatics, Kyoto University, and a Joint Appointed Fellow at the Artificial Intelligence Research Center, National Institute of Advanced Industrial Science and Technology (AIST). My research areas are process systems engineering, natural language processing, and AI for science. My CV is available [here](/pdf/Curriculum_Vitae_ShotaKato.pdf).
 
       experience:
         title: Experiences
         icon: fas fa-briefcase
         list:
+          - position: Joint Appointed Fellow
+            dates: "Apr. 2026 – Present"
+            url: "https://www.airc.aist.go.jp/en/"
+            company: National Institute of Advanced Industrial Science and Technology (AIST)
+            details: |1-
+              - Artificial Intelligence Research Center
+          - position: JST PRESTO Researcher [R&D Process Innovation]
+            dates: "2025 – Present"
+            url: "https://www.jst.go.jp/kisoken/presto/en/index.html"
+            company: JST PRESTO
+            details: |1-
+              - Theme: Establishing Foundations for Autonomy-Driven Physical Modeling Using Multimodal Data
+              - [Program homepage](https://www.jst.go.jp/kisoken/presto/en/project/1112114/1112114_2025.html)
           - position: Visiting Researcher
-            dates: "Apr. 2024 – Present"
+            dates: "Jul. 2025 – Mar. 2026"
+            url: "https://www.airc.aist.go.jp/en/"
+            company: National Institute of Advanced Industrial Science and Technology (AIST)
+            details: |1-
+              - Artificial Intelligence Research Center
+          - position: Visiting Researcher
+            dates: "Apr. 2024 – Feb. 2025"
             url: "https://www.manchester.ac.uk/"
             company: University of Manchester
             details: |1-
               - Collaboration with the group of Dr. Dongda Zhang in the Department of Chemical Engineering, Faculty of Science and Engineering.
           - position: JST ACT-X Researcher [NextAI-math-info]
-            dates: "Oct. 1, 2023 – Present"
+            dates: "Oct. 1, 2023 – Mar. 2026"
             url: "https://www.jst.go.jp/kisoken/act-x/en/index.html"
             company: JST ACT-X
             details: |1-
@@ -131,12 +150,26 @@ languages:
           - Journal Articles
           - Proceedings
         list:
-          - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
-            authors: "K. Nagayama, S. Kato, and M. Kano"
-            date: "2024"
-            journal: "NLDB, pp. 151–165"
-            url: "https://doi.org/10.1007/978-3-031-70239-6_11"
-            type: Proceedings
+          - title: "Automated physical model building from literature sources: Combining equations based on four predefined requirements"
+            authors: "S. Kato and M. Kano"
+            date: "2025"
+            journal: "Computers & Chemical Engineering, vol. 200, 109147"
+            url: "https://doi.org/10.1016/j.compchemeng.2025.109147"
+            type: Journal Articles
+
+          - title: "Rheo-SINDy: Finding a Constitutive Model from Rheological Data for Complex Fluids Using Sparse Identification for Nonlinear Dynamics"
+            authors: "T. Sato, S. Miyamoto, and S. Kato"
+            date: "2025"
+            journal: "Journal of Rheology, vol. 69, no. 1, pp. 15–34"
+            url: "https://doi.org/10.1122/8.0000872"
+            type: Journal Articles
+
+          - title: "VARAT: Variable Annotation Tool for Documents on Manufacturing Processes"
+            authors: "S. Kato and M. Kano"
+            date: "2025"
+            journal: "Journal of Chemical Engineering of Japan, vol. 58, no. 1, 2454461"
+            url: "https://doi.org/10.1080/00219592.2025.2454461"
+            type: Journal Articles
 
           - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
             authors: "S. Kato and M. Kano"
@@ -146,17 +179,10 @@ languages:
             type: Proceedings
 
           - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
-            authors: "S. Kato and M. Kano"
+            authors: "S. Kato, C. Zhang, and M. Kano"
             date: "2023"
-            journal: "Scientific Reports, vol. 13, no. 11534"
+            journal: "Scientific Reports, vol. 13, 11534"
             url: "https://doi.org/10.1038/s41598-023-38254-y"
-            type: Journal Articles
-
-          - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
-            authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
-            date: "2021"
-            journal: "Journal of Crystal Growth, vol. 553, p. 125929"
-            url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
             type: Journal Articles
 
       research:
@@ -204,7 +230,7 @@ languages:
       author: 加藤 祥太
       description: 加藤祥太の個人ウェブサイト
       copyright: >-
-        &copy; 2024 Shota Kato. All rights reserved.
+        &copy; 2026 Shota Kato. All rights reserved.
 
       theme:
         mainTheme: dark
@@ -261,20 +287,39 @@ languages:
       aboutme:
         title: 自己紹介
         icon: fas fa-user
-        description: 京都大学で助教をしている加藤祥太（Kato Shota）です。化学工学、機械学習、自然言語処理に関する研究をしています。CVは[こちら](/pdf/Curriculum_Vitae_ShotaKato.pdf)。
+        description: 京都大学大学院情報学研究科 助教、産業技術総合研究所 人工知能研究センター 特定フェローの加藤祥太（Kato Shota）です。プロセスシステム工学、自然言語処理、AI for Scienceに関する研究をしています。CVは[こちら](/pdf/Curriculum_Vitae_ShotaKato.pdf)。
 
       experience:
         title: 経歴
         icon: fas fa-briefcase
         list:
+          - position: 特定フェロー
+            dates: "2026年4月 – 現在"
+            url: "https://www.airc.aist.go.jp/"
+            company: 産業技術総合研究所
+            details: |1-
+              - 人工知能研究センター
+          - position: JST さきがけ研究者 [研究開発プロセス革新]
+            dates: "2025年 – 現在"
+            url: "https://www.jst.go.jp/kisoken/presto/index.html"
+            company: JST さきがけ
+            details: |1-
+              - テーマ: マルチモーダルデータを活用した自律駆動型物理モデリングの基盤構築
+              - [プログラムホームページ](https://www.jst.go.jp/kisoken/presto/project/1112114/1112114_2025.html)
+          - position: 招聘研究員
+            dates: "2025年7月 – 2026年3月"
+            url: "https://www.airc.aist.go.jp/"
+            company: 産業技術総合研究所
+            details: |1-
+              - 人工知能研究センター
           - position: 訪問研究員
-            dates: "2024年4月 – 現在"
+            dates: "2024年4月 – 2025年2月"
             url: "https://www.manchester.ac.uk/"
             company: マンチェスター大学
             details: |1-
               - 化学工学専攻のDongda Zhang博士のグループとの共同研究
           - position: JST ACT-X 研究員 [次世代AI・数理情報]
-            dates: "2023年10月1日 – 現在"
+            dates: "2023年10月1日 – 2026年3月"
             url: "https://www.jst.go.jp/kisoken/act-x/index.html"
             company: JST ACT-X
             details: |1-
@@ -319,12 +364,26 @@ languages:
           - Journal Articles
           - Proceedings
         list:
-          - title: "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction"
-            authors: "K. Nagayama, S. Kato, and M. Kano"
-            date: "2024"
-            journal: "NLDB, pp. 151–165"
-            url: "https://doi.org/10.1007/978-3-031-70239-6_11"
-            type: Proceedings
+          - title: "Automated physical model building from literature sources: Combining equations based on four predefined requirements"
+            authors: "S. Kato and M. Kano"
+            date: "2025"
+            journal: "Computers & Chemical Engineering, vol. 200, 109147"
+            url: "https://doi.org/10.1016/j.compchemeng.2025.109147"
+            type: Journal Articles
+
+          - title: "Rheo-SINDy: Finding a Constitutive Model from Rheological Data for Complex Fluids Using Sparse Identification for Nonlinear Dynamics"
+            authors: "T. Sato, S. Miyamoto, and S. Kato"
+            date: "2025"
+            journal: "Journal of Rheology, vol. 69, no. 1, pp. 15–34"
+            url: "https://doi.org/10.1122/8.0000872"
+            type: Journal Articles
+
+          - title: "VARAT: Variable Annotation Tool for Documents on Manufacturing Processes"
+            authors: "S. Kato and M. Kano"
+            date: "2025"
+            journal: "Journal of Chemical Engineering of Japan, vol. 58, no. 1, 2454461"
+            url: "https://doi.org/10.1080/00219592.2025.2454461"
+            type: Journal Articles
 
           - title: "Prototype of Automated Physical Model Builder: Challenges and Opportunities"
             authors: "S. Kato and M. Kano"
@@ -334,17 +393,10 @@ languages:
             type: Proceedings
 
           - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
-            authors: "S. Kato and M. Kano"
+            authors: "S. Kato, C. Zhang, and M. Kano"
             date: "2023"
-            journal: "Scientific Reports, vol. 13, no. 11534"
+            journal: "Scientific Reports, vol. 13, 11534"
             url: "https://doi.org/10.1038/s41598-023-38254-y"
-            type: Journal Articles
-
-          - title: "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process"
-            authors: "S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta"
-            date: "2021"
-            journal: "Journal of Crystal Growth, vol. 553, p. 125929"
-            url: "https://doi.org/10.1016/j.jcrysgro.2020.125929"
             type: Journal Articles
 
       research:

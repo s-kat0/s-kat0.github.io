@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Model building flow of AutoPMoB</title>
+  <desc id="d">AutoPMoB collects documents on a target process from a literature database, extracts variables and equations, judges the equivalence of the extracted information across documents, and integrates it into a physical model.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f5d8a"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="960" height="340" rx="14" fill="#ffffff"/>
+
+  <!-- AutoPMoB frame -->
+  <rect x="200" y="28" width="560" height="284" rx="12" fill="#fdf3f2" stroke="#c0392b" stroke-width="2"/>
+  <text x="216" y="54" font-size="18" font-weight="700" fill="#c0392b">AutoPMoB</text>
+
+  <!-- 1. Literature database -->
+  <g>
+    <ellipse cx="100" cy="112" rx="58" ry="14" fill="#e8eef5" stroke="#2f5d8a" stroke-width="2"/>
+    <path d="M42,112 v70 a58,14 0 0 0 116,0 v-70" fill="#e8eef5" stroke="#2f5d8a" stroke-width="2"/>
+    <path d="M42,147 a58,14 0 0 0 116,0" fill="none" stroke="#2f5d8a" stroke-width="1.5"/>
+    <text x="100" y="222" font-size="15" text-anchor="middle" fill="#222">Literature</text>
+    <text x="100" y="240" font-size="15" text-anchor="middle" fill="#222">database</text>
+    <text x="100" y="272" font-size="13" text-anchor="middle" fill="#555">Collect documents</text>
+    <text x="100" y="289" font-size="13" text-anchor="middle" fill="#555">on the target process</text>
+  </g>
+  <line x1="164" y1="150" x2="214" y2="150" stroke="#2f5d8a" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- 2. Extraction -->
+  <rect x="224" y="74" width="236" height="200" rx="8" fill="#ffffff" stroke="#888" stroke-width="1.5"/>
+  <text x="342" y="98" font-size="15" font-weight="700" text-anchor="middle" fill="#222">Extract information</text>
+  <text x="240" y="126" font-size="13" font-weight="700" fill="#2f5d8a">Variables</text>
+  <text x="240" y="148" font-size="14" fill="#222"><tspan font-style="italic">V</tspan>    liquid volume</text>
+  <text x="240" y="168" font-size="14" fill="#222"><tspan font-style="italic">F</tspan><tspan font-size="10" dy="4">i</tspan><tspan dy="-4">   feed flow rate</tspan></text>
+  <text x="240" y="188" font-size="14" fill="#222"><tspan font-style="italic">C</tspan><tspan font-size="10" dy="4">A</tspan><tspan dy="-4">  outlet concentration</tspan></text>
+  <text x="240" y="216" font-size="13" font-weight="700" fill="#2f5d8a">Equations</text>
+  <text x="240" y="240" font-size="14" font-style="italic" fill="#222">dV/dt = F<tspan font-size="10" dy="4">1</tspan><tspan dy="-4"> + F</tspan><tspan font-size="10" dy="4">2</tspan><tspan dy="-4"> − F</tspan></text>
+  <text x="240" y="262" font-size="14" font-style="italic" fill="#222">F = α√h</text>
+
+  <line x1="466" y1="174" x2="500" y2="174" stroke="#2f5d8a" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- 3. Equivalence judgment -->
+  <rect x="508" y="74" width="236" height="200" rx="8" fill="#ffffff" stroke="#888" stroke-width="1.5"/>
+  <text x="626" y="98" font-size="15" font-weight="700" text-anchor="middle" fill="#222">Judge equivalence</text>
+  <text x="626" y="118" font-size="13" text-anchor="middle" fill="#555">across documents</text>
+  <rect x="528" y="134" width="88" height="34" rx="6" fill="#e8eef5"/>
+  <text x="572" y="156" font-size="14" text-anchor="middle" fill="#222"><tspan font-style="italic">F</tspan><tspan font-size="10" dy="4">out</tspan></text>
+  <rect x="636" y="134" width="88" height="34" rx="6" fill="#e8eef5"/>
+  <text x="680" y="156" font-size="14" text-anchor="middle" fill="#222"><tspan font-style="italic">F</tspan></text>
+  <text x="626" y="157" font-size="16" text-anchor="middle" fill="#c0392b">=</text>
+  <text x="626" y="192" font-size="13" text-anchor="middle" fill="#555">"outlet flow" ≡ "product flow"</text>
+  <text x="626" y="226" font-size="13" text-anchor="middle" fill="#555">Unify notation of variables</text>
+  <text x="626" y="244" font-size="13" text-anchor="middle" fill="#555">and equations</text>
+
+  <line x1="750" y1="174" x2="800" y2="174" stroke="#2f5d8a" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- 4. Physical model -->
+  <rect x="806" y="100" width="140" height="148" rx="10" fill="#eef5ee" stroke="#2e7d32" stroke-width="2"/>
+  <text x="876" y="126" font-size="15" font-weight="700" text-anchor="middle" fill="#2e7d32">Integrate</text>
+  <text x="876" y="160" font-size="16" font-weight="700" text-anchor="middle" fill="#222">Physical</text>
+  <text x="876" y="180" font-size="16" font-weight="700" text-anchor="middle" fill="#222">model</text>
+  <text x="876" y="212" font-size="12" text-anchor="middle" fill="#555">Model candidates</text>
+  <text x="876" y="228" font-size="12" text-anchor="middle" fill="#555">for the target process</text>
+</svg>

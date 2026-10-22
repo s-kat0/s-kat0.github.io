@@ -6,7 +6,7 @@
         <p>&mdash;</p>
     </div>
     <div class="content">
-        {{- $content := .Content | replaceRE "(Shota Kato|S\\. Kato)" "<u>$1</u>" -}}
+        {{- $content := .Content | replaceRE "(Shota Kato|S\\. Kato|加藤 祥太)" "<u>$1</u>" -}}
         {{- $content | safeHTML }}
     </div>
 </div>
