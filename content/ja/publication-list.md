@@ -102,13 +102,13 @@ layout: "publication-list"
 
 12. K. Nagayama, S. Kato, and M. Kano, "Data Augmentation Method Utilizing Template Sentences for Variable Definition Extraction," 29th International Conference on Natural Language & Information Systems (NLDB 2024), Turin, Italy, Jun. 25–27 (2024)
 
-13. S. Kato and M. Kano, "Prototype of Automated Physical Model Builder: Challenges and Opportunities," The joint Symposium combining the 34th European Symposium on Computer-Aided Process Engineering and the 15th International Symposium on Process Systems Engineering (ESCAPE34-PSE24), Florence, Italy, Jun. 2–6 (2024)
+13. S. Kato and M. Kano, "Prototype of Automated Physical Model Builder: Challenges and Opportunities," The joint Symposium combining the 34th European Symposium on Computer Aided Process Engineering and the 15th International Symposium on Process Systems Engineering (ESCAPE34-PSE24), Florence, Italy, Jun. 2–6 (2024)
 
 14. P. H. Pathirannahalage, A. Nabetani, S. Kato, K. Sato, K. Yaginuma, S. Tanabe, and M. Kano, "Setpoint Determination Method for Pharmaceutical Continuous Manufacturing: Proactive-RTD-based Approach," 2023 IEEE Conference on Control Technology and Applications (CCTA), Bridgetown, Barbados, Aug. 16–18 (2023)
 
 15. B. Wang, S. Kato, and M. Kano, "GAN-based Homogenous Transfer Learning Method for Regression Problems," 2023 IEEE Conference on Control Technology and Applications (CCTA), Bridgetown, Barbados, Aug. 16–18 (2023)
 
-16. S. Kato and M. Kano, "Efficient Physical Model Building Algorithm Using Equations Extracted from Documents," 33rd European Symposium on Computer-aided Process Engineering (ESCAPE33), Athens, Greece, Jun. 18–21 (2023)
+16. S. Kato and M. Kano, "Efficient Physical Model Building Algorithm Using Equations Extracted from Documents," 33rd European Symposium on Computer Aided Process Engineering (ESCAPE33), Athens, Greece, Jun. 18–21 (2023)
 
 17. S. Chen, S. Kato, K. Fujiwara, and M. Kano, "Nearest Neighbor Search-Based Modification of RRI Data with Premature Atrial Contraction and Premature Ventricular Contraction," 2023 SICE International Symposium on Control Systems (SICE ISCS), Kusatsu, Japan, Mar. 9–11 (2023)
 

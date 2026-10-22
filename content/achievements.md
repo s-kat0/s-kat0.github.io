@@ -29,7 +29,7 @@ draft: false
 
 - The Chubei Itoh Foundation, "Development of extraction and standardization methods for information required to build physical models from manufacturing process-related documents," Apr 2023–Mar 2024, Total cost: 500,000JPY
 
-- Kyoto University Foundation, Grant for Presentation at International Research Conferences, 33rd European Symposium on Computer-Aided Process Engineering (ESCAPE-33), Athens, Greece, Jun 2023, Amount: 350,000JPY
+- Kyoto University Foundation, Grant for Presentation at International Research Conferences, 33rd European Symposium on Computer Aided Process Engineering (ESCAPE-33), Athens, Greece, Jun 2023, Amount: 350,000JPY
 
 - JST, Support for Pioneering Research Initiated by the Next Generation (SPRING), "Development of a first-principles model building AI utilizing literature information," Oct 2021–Mar 2022, Total: 1,100,000JPY (research expenses: 200,000JPY; research fellowship: 150,000JPY per month for 6 months), Grant number: JPMJSP2110
 
