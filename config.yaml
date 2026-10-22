@@ -158,7 +158,7 @@ languages:
             url: "https://doi.org/10.1016/j.compchemeng.2025.109147"
             type: Journal Articles
 
-          - title: "Rheo-SINDy: Finding a Constitutive Model from Rheological Data for Complex Fluids Using Sparse Identification for Nonlinear Dynamics"
+          - title: "Rheo-SINDy: Finding a constitutive model from rheological data for complex fluids using sparse identification for nonlinear dynamics"
             authors: "T. Sato, S. Miyamoto, and S. Kato"
             date: "2025"
             journal: "Journal of Rheology, vol. 69, no. 1, pp. 15–34"
@@ -372,7 +372,7 @@ languages:
             url: "https://doi.org/10.1016/j.compchemeng.2025.109147"
             type: Journal Articles
 
-          - title: "Rheo-SINDy: Finding a Constitutive Model from Rheological Data for Complex Fluids Using Sparse Identification for Nonlinear Dynamics"
+          - title: "Rheo-SINDy: Finding a constitutive model from rheological data for complex fluids using sparse identification for nonlinear dynamics"
             authors: "T. Sato, S. Miyamoto, and S. Kato"
             date: "2025"
             journal: "Journal of Rheology, vol. 69, no. 1, pp. 15–34"

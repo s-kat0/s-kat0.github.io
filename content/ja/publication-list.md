@@ -24,17 +24,17 @@ layout: "publication-list"
 
 4. S. Kato and M. Kano, "Automated physical model building from literature sources: Combining equations based on four predefined requirements," Computers & Chemical Engineering, vol. 200, 109147 (2025) doi: [10.1016/j.compchemeng.2025.109147](https://doi.org/10.1016/j.compchemeng.2025.109147)
 
-5. T. Sato, S. Miyamoto, and S. Kato, "Rheo-SINDy: Finding a Constitutive Model from Rheological Data for Complex Fluids Using Sparse Identification for Nonlinear Dynamics," Journal of Rheology, vol. 69, no. 1, pp. 15–34 (2025) doi: [10.1122/8.0000872](https://doi.org/10.1122/8.0000872)
+5. T. Sato, S. Miyamoto, and S. Kato, "Rheo-SINDy: Finding a constitutive model from rheological data for complex fluids using sparse identification for nonlinear dynamics," Journal of Rheology, vol. 69, no. 1, pp. 15–34 (2025) doi: [10.1122/8.0000872](https://doi.org/10.1122/8.0000872)
 
 6. S. Kato and M. Kano, "VARAT: Variable Annotation Tool for Documents on Manufacturing Processes," Journal of Chemical Engineering of Japan, vol. 58, no. 1, 2454461 (2025) doi: [10.1080/00219592.2025.2454461](https://doi.org/10.1080/00219592.2025.2454461)
 
 7. S. Kato, C. Zhang, and M. Kano, "Simple algorithm for judging equivalence of differential-algebraic equation systems," Scientific Reports, vol. 13, 11534 (2023) doi: [10.1038/s41598-023-38254-y](https://doi.org/10.1038/s41598-023-38254-y)
 
-8. S. Kato, S. Kim, M. Mizuta, and M. Kano, "Gray-box Model-based Predictive Control of Czochralski Process with Successive Model Update," Journal of Chemical Engineering of Japan, vol. 55, no. 3, pp. 154–161 (2022) doi: [10.1252/jcej.21we096](https://doi.org/10.1252/jcej.21we096)
+8. S. Kato, S. Kim, M. Mizuta, and M. Kano, "Gray-Box Model-Based Predictive Control of Czochralski Process with Successive Model Update," Journal of Chemical Engineering of Japan, vol. 55, no. 3, pp. 154–161 (2022) doi: [10.1252/jcej.21we096](https://doi.org/10.1252/jcej.21we096)
 
-9. S. Kato, S. Kim, M. Mizuta, M. Oshima, and M. Kano, "Gray-box Model-based Predictive Control of Czochralski Process," Journal of Crystal Growth, vol. 573, 126299 (2021) doi: [10.1016/j.jcrysgro.2021.126299](https://doi.org/10.1016/j.jcrysgro.2021.126299)
+9. S. Kato, S. Kim, M. Mizuta, M. Oshima, and M. Kano, "Gray-box model-based predictive control of Czochralski process," Journal of Crystal Growth, vol. 573, 126299 (2021) doi: [10.1016/j.jcrysgro.2021.126299](https://doi.org/10.1016/j.jcrysgro.2021.126299)
 
-10. S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta, "Gray-box Modeling of 300 mm Diameter Czochralski Single-crystal Si Production Process," Journal of Crystal Growth, vol. 553, 125929 (2021) doi: [10.1016/j.jcrysgro.2020.125929](https://doi.org/10.1016/j.jcrysgro.2020.125929)
+10. S. Kato, S. Kim, M. Kano, T. Fujiwara, and M. Mizuta, "Gray-box modeling of 300 mm diameter Czochralski single-crystal Si production process," Journal of Crystal Growth, vol. 553, 125929 (2021) doi: [10.1016/j.jcrysgro.2020.125929](https://doi.org/10.1016/j.jcrysgro.2020.125929)
 
 # 国際会議論文（Conference Proceedings）
 
@@ -62,7 +62,7 @@ layout: "publication-list"
 
 12. P. H. Pathirannahalage, A. Nabetani, S. Kato, K. Sato, K. Yaginuma, S. Tanabe, and M. Kano, "Setpoint Determination Method for Pharmaceutical Continuous Manufacturing: Proactive-RTD-based Approach," 2023 IEEE Conference on Control Technology and Applications (CCTA), pp. 502–507 (2023) doi: [10.1109/CCTA54093.2023.10253250](https://doi.org/10.1109/CCTA54093.2023.10253250)
 
-13. S. Kato and M. Kano, "Efficient Physical Model Building Algorithm Using Equations Extracted from Documents," Computer Aided Chemical Engineering, vol. 52, pp. 151–156 (2023) doi: [10.1016/B978-0-443-15274-0.50025-1](https://doi.org/10.1016/B978-0-443-15274-0.50025-1)
+13. S. Kato and M. Kano, "Efficient physical model building algorithm using equations extracted from documents," Computer Aided Chemical Engineering, vol. 52, pp. 151–156 (2023) doi: [10.1016/B978-0-443-15274-0.50025-1](https://doi.org/10.1016/B978-0-443-15274-0.50025-1)
 
 14. S. Chen, S. Kato, K. Fujiwara, and M. Kano, "Nearest Neighbor Search-Based Modification of RRI Data with Premature Atrial Contraction and Premature Ventricular Contraction," 2023 SICE International Symposium on Control Systems (SICE ISCS), pp. 53–57 (2023) doi: [10.23919/SICEISCS57194.2023.10079199](https://doi.org/10.23919/SICEISCS57194.2023.10079199)
 
