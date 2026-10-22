@@ -108,7 +108,7 @@ layout: "publication-list"
 
 15. B. Wang, S. Kato, and M. Kano, "GAN-based Homogenous Transfer Learning Method for Regression Problems," 2023 IEEE Conference on Control Technology and Applications (CCTA), Bridgetown, Barbados, Aug. 16–18 (2023)
 
-16. S. Kato and M. Kano, "Efficient Physical Model Building Algorithm Using Equations Extracted from Documents," 33rd European Symposium on Computer Aided Process Engineering (ESCAPE33), Athens, Greece, Jun. 18–21 (2023)
+16. S. Kato and M. Kano, "Efficient physical model building algorithm using equations extracted from documents," 33rd European Symposium on Computer Aided Process Engineering (ESCAPE33), Athens, Greece, Jun. 18–21 (2023)
 
 17. S. Chen, S. Kato, K. Fujiwara, and M. Kano, "Nearest Neighbor Search-Based Modification of RRI Data with Premature Atrial Contraction and Premature Ventricular Contraction," 2023 SICE International Symposium on Control Systems (SICE ISCS), Kusatsu, Japan, Mar. 9–11 (2023)
 
