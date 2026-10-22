@@ -179,7 +179,7 @@ languages:
             url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
             type: Proceedings
 
-          - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
+          - title: "Simple algorithm for judging equivalence of differential-algebraic equation systems"
             authors: "S. Kato, C. Zhang, and M. Kano"
             date: "2023"
             journal: "Scientific Reports, vol. 13, 11534"
@@ -393,7 +393,7 @@ languages:
             url: "https://doi.org/10.1016/B978-0-443-28824-1.50474-9"
             type: Proceedings
 
-          - title: "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems"
+          - title: "Simple algorithm for judging equivalence of differential-algebraic equation systems"
             authors: "S. Kato, C. Zhang, and M. Kano"
             date: "2023"
             journal: "Scientific Reports, vol. 13, 11534"

@@ -28,7 +28,7 @@ layout: "publication-list"
 
 6. S. Kato and M. Kano, "VARAT: Variable Annotation Tool for Documents on Manufacturing Processes," Journal of Chemical Engineering of Japan, vol. 58, no. 1, 2454461 (2025) doi: [10.1080/00219592.2025.2454461](https://doi.org/10.1080/00219592.2025.2454461)
 
-7. S. Kato, C. Zhang, and M. Kano, "Simple Algorithm for Judging Equivalence of Differential-Algebraic Equation Systems," Scientific Reports, vol. 13, 11534 (2023) doi: [10.1038/s41598-023-38254-y](https://doi.org/10.1038/s41598-023-38254-y)
+7. S. Kato, C. Zhang, and M. Kano, "Simple algorithm for judging equivalence of differential-algebraic equation systems," Scientific Reports, vol. 13, 11534 (2023) doi: [10.1038/s41598-023-38254-y](https://doi.org/10.1038/s41598-023-38254-y)
 
 8. S. Kato, S. Kim, M. Mizuta, and M. Kano, "Gray-box Model-based Predictive Control of Czochralski Process with Successive Model Update," Journal of Chemical Engineering of Japan, vol. 55, no. 3, pp. 154–161 (2022) doi: [10.1252/jcej.21we096](https://doi.org/10.1252/jcej.21we096)
 
