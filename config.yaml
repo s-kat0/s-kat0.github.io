@@ -88,6 +88,7 @@ languages:
             url: "https://www.jst.go.jp/kisoken/presto/en/index.html"
             company: JST PRESTO
             details: |1-
+              - Precursory Research for Embryonic Science and Technology (PRESTO), Japan Science and Technology Agency (JST)
               - Theme: Establishing Foundations for Autonomy-Driven Physical Modeling Using Multimodal Data
               - [Program homepage](https://www.jst.go.jp/kisoken/presto/en/project/1112114/1112114_2025.html)
           - position: Visiting Researcher

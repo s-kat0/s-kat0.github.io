@@ -13,13 +13,13 @@ draft: false
 
 # Grants
 
-- JST, BOOST, 2026–2031, Amount: 50,000,000JPY, Grant number: JPMJBY25A8
+- Japan Science and Technology Agency (JST), BOOST, 2026–2031, Amount: 50,000,000JPY, Grant number: JPMJBY25A8
 
-- JST, PRESTO, Research area "R&D Process Innovation by AI and Robotics: Technical Foundations and Practical Applications," "Establishing Foundations for Autonomy-Driven Physical Modeling Using Multimodal Data," 2025–2029, Amount: 35,000,000JPY, Grant number: JPMJPR25T1
+- JST, Precursory Research for Embryonic Science and Technology (PRESTO), Research area "R&D Process Innovation by AI and Robotics: Technical Foundations and Practical Applications," "Establishing Foundations for Autonomy-Driven Physical Modeling Using Multimodal Data," 2025–2029, Amount: 35,000,000JPY, Grant number: JPMJPR25T1
 
-- JSPS, Grant-in-Aid for Early-Career Scientists, 2026–2029, Amount: 3,400,000JPY, Grant number: 26K17699
+- Japan Society for the Promotion of Science (JSPS), Grant-in-Aid for Early-Career Scientists, 2026–2029, Amount: 3,400,000JPY, Grant number: 26K17699
 
-- AIST, KAKUSEI project, 2025–2026, Amount: 3,000,000JPY
+- National Institute of Advanced Industrial Science and Technology (AIST), KAKUSEI project, 2025–2026, Amount: 3,000,000JPY
 
 - JST, ACT-X, "Development of an automated physical model building AI that understands the terminology and mathematical formulas of manufacturing processes," Oct 2023–Mar 2026, Direct cost: 4,500,000JPY, Grant number: JPMJAX23C5
 
@@ -31,7 +31,7 @@ draft: false
 
 - Kyoto University Foundation, Grant for Presentation at International Research Conferences, 33rd European Symposium on Computer-Aided Process Engineering (ESCAPE-33), Athens, Greece, Jun 2023, Amount: 350,000JPY
 
-- JST SPRING, "Development of a first-principles model building AI utilizing literature information," Oct 2021–Mar 2022, Total: 1,100,000JPY (research expenses: 200,000JPY; research fellowship: 150,000JPY per month for 6 months), Grant number: JPMJSP2110
+- JST, Support for Pioneering Research Initiated by the Next Generation (SPRING), "Development of a first-principles model building AI utilizing literature information," Oct 2021–Mar 2022, Total: 1,100,000JPY (research expenses: 200,000JPY; research fellowship: 150,000JPY per month for 6 months), Grant number: JPMJSP2110
 
 - Kyoto University Foundation, Grant for Presentation at International Research Conferences, 2019 AIChE Annual Meeting, Orlando, US, Nov 2019, Amount: 250,000JPY
 
