@@ -6,7 +6,11 @@
     <p>&mdash;</p>
   </div>
   <div class="content">
-    {{ .Content }}
+    {{- $content := .Content -}}
+    {{- if strings.Contains .RelPermalink "/research/" -}}
+    {{- $content = $content | replaceRE "(Shota Kato|S\\. Kato|加藤 祥太)" "<u>$1</u>" | safeHTML -}}
+    {{- end -}}
+    {{ $content }}
   </div>
 </div>
 {{ partial "prevnext" . }}

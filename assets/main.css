@@ -14,6 +14,9 @@
     max-height: 0;
     transition: 0.3s ease-out;
   }
+  figure img {
+    @apply bg-white;
+  }
   h2.accordion {
     @apply text-blue-600 dark:text-yellow-500;
   }
